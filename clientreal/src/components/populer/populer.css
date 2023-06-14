@@ -1,0 +1,25 @@
+.postsPop{ 
+    justify-content: center;
+
+    }
+    
+    .artikel{
+        margin-top: 20px;
+        margin-left:30px;
+        margin-bottom: 30px;
+    }
+    
+    .listPostPop{
+        display: flex;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .spostPop{
+        width: 180px;
+        
+        
+    }
+ 

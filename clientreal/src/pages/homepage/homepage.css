@@ -1,0 +1,40 @@
+.bigHome{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-left: 30px;
+}
+
+.bigHome2{
+  display: block;
+
+
+}
+.home {
+  display: flex;
+ justify-content: flex-start;
+
+}
+
+.search{
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  padding-top: 30px;
+}
+
+.sidebarhome{
+  padding-bottom: 100px;
+  right: 0;
+}
+ .homeTop{
+  width: 100%;
+  padding-bottom: 20px;
+  justify-content: center;
+
+}
+
+ 
+

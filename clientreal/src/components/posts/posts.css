@@ -1,0 +1,49 @@
+.posts{ 
+justify-content: center;
+}
+
+.artikel{
+    margin-top: 20px;
+    margin-left:30px;
+    margin-bottom: 30px;
+}
+
+.listPost{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.spost{
+    width: 180px;
+}
+.pagination{
+    padding-top: 20px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+    font-size:1.2 rem;
+    gap: 5px;
+    
+}
+
+.pagination .page-num{
+    padding: 8px 15px ;
+    cursor: pointer   ;
+    border-radius: 3px;
+    font-weight: 400;
+    border: 0.3px solid black;
+
+}
+
+.pagination .page-num:hover{
+    background-color: #5ab1bb;
+    color: #fff;
+}
+
+.pagination .active{
+    background-color: #5ab1bb;
+}
